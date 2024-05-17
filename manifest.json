@@ -1,0 +1,34 @@
+ 
+  {
+    "manifest_version": 3,
+    "name": "Speak Selected Text",
+    "version": "1.0",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+      },
+    "permissions": [
+      "contextMenus", 
+      "scripting",
+      "tabs", 
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*",
+      "file://*/*"
+    ],
+    "optional_permissions": [
+      "topSites"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["background.js"]
+      }
+    ]
+  }
+  
