@@ -3,18 +3,12 @@
   "name": "Item Clipboard Plugin",
   "version": "1.0",
   "permissions": [
-    "clipboardWrite", "clipboardRead", "storage", "activeTab"
+    "clipboardWrite",
+    "clipboardRead",
+    "storage",
+    "contextMenus"
   ],
-  "action": {
-    "default_popup": "popup.html"
-  },
   "background": {
     "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
-    }
-  ]
+  }
 }
