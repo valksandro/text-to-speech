@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Item Clipboard Plugin",
+  "name": "Add Item Clipboard Plugin",
   "version": "1.0",
   "permissions": [
     "clipboardWrite", "clipboardRead", "storage", "activeTab"
