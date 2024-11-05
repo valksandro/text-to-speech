@@ -158,9 +158,11 @@
 ---
 
 ## Introdução
+<div style="text-align: justify;">
 
 Neste capítulo, vamos explorar a configuração e o uso do banco de dados local SQLite em um aplicativo Ionic utilizando o plugin Capacitor SQLite. O armazenamento de dados offline é essencial para garantir que um aplicativo móvel funcione corretamente mesmo sem uma conexão com a internet. Vamos abordar os passos necessários para configurar o plugin, como gerenciar conexões, criar tabelas, e executar consultas SQL de maneira eficiente.
 
+</div>
 ---
 
 ## 1. Configuração Inicial do Capacitor SQLite
